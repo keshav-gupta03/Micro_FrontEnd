@@ -1,0 +1,10 @@
+<div class="card mb-4">
+  <a  routerLink="/item" [queryParams]="{id:item.id}">
+    <img src="../../assets/images/img-2.jpg" class="card-img-top" alt="..." style="height: 262px; width: 262px" />
+  </a>
+  <div class="card-body">
+    <p class="card-text text-center fs-5 fw-bolder text-danger">
+      Name: {{ item.name }}
+    </p>
+  </div>
+</div>
